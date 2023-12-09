@@ -2,4 +2,6 @@
 
 source bin/activate
 
-python main.py --config_path config.yml
+python main.py --config_path /etc/Streamr_auto_harvest_earning/config.yml
+
+

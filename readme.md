@@ -12,6 +12,8 @@ git clone https://github.com/Tocard/Streamr_auto_harvest_earning.git
 mkdir /var/log/Streamr_auto_harvest_earning
 touch /var/log/Streamr_auto_harvest_earning/harvesting.log
 chmod +x Streamr_auto_harvest_earning/run_harvest.sh
+mkdir /etc/Streamr_auto_harvest_earning
+cp Streamr_auto_harvest_earning/config.yml /etc/Streamr_auto_harvest_earning/config.yml
 ````
 
 
