@@ -1,7 +1,9 @@
 #!/bin/bash
 
-source bin/activate
+INSTALL=/opt/Streamr_auto_harvest_earning
 
-python main.py --config_path /etc/Streamr_auto_harvest_earning/config.yml
+source ${INSTALL}/bin/activate
+
+python ${INSTALL}/main.py --config_path /etc/Streamr_auto_harvest_earning/config.yml
 
 
