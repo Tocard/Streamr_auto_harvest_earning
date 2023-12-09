@@ -1,0 +1,22 @@
+---
+
+rpc_url: https://polygon-rpc.com
+
+wallet_privkey:
+
+operator_contract_adress: "0x25F83066055Bc49395ffa782325f1f19C59e1358"
+
+sponsorship_to_claim:
+  - "0x5f0b8a00fe2986fe20b8abe7820953cb31ea7ab5"
+  - "0x6dd3ae98677dd136e6d73a13f13d8e53f02f932c"
+  - "0x3c6029760e9ca4d3aeb97cbfa3a8a9a4652bf7ff"
+  - "0x93ccf5ccb8b56c69b9ee6dbf1da90611cb7dcc0b"
+  - "0xce0b787be658c935d0799247b0d622c453f0c226"
+
+vault_enabled: True
+vault_address: YOUR_VAULT_ADDRESS
+vault_secret_path: YOUR_VAULT_SECRET_PATH
+vault_mount_point: YOUR_VAULT_MOUNT_POINT
+vault_key: YOUR_VAULT_SECRET_PATH_KEY
+vault_username: YOUR_VAULT_USERNAME
+vault_ssl_file: chain.pem
